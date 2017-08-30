@@ -1,0 +1,22 @@
+{
+  "name": "pg-format",
+  "main": "./lib/pg-format",
+  "version": "0.0.0",
+  "description": "Format PostgreSQL snippets in Atom",
+  "keywords": [
+    "PostgreSQL",
+    "Format",
+    "Snippets"
+  ],
+  "activationCommands": {
+    "atom-workspace": "pg-format:pretty"
+  },
+  "repository": "https://github.com/atom/pg-format",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "streamify-string": "^1.0.1"
+  }
+}

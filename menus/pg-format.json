@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Pretty pg-format",
+        "command": "pg-format:pretty"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "pg-format",
+          "submenu": [
+            {
+              "label": "Pretty",
+              "command": "pg-format:pretty"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
